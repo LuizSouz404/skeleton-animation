@@ -39,6 +39,16 @@ const data = [
     title: "Lorem, ipsum.",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing."
   },
+  {
+    id: 8,
+    title: "Lorem, ipsum.",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing."
+  },
+  {
+    id: 9,
+    title: "Lorem, ipsum.",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing."
+  },
 ]
 
 
@@ -69,7 +79,7 @@ function App() {
 
         {loading && 
           <>
-            <Skeleton Qtd={7}/>
+            <Skeleton Qtd={9}/>
           </>
         }
 
